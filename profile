@@ -24,7 +24,7 @@ fi
 #clear files for new session
 /usr/bin/rsync -a --delete --exclude=".*" --exclude=".*/" --exclude="PlayOnLinux\'s\ virtual\ drives*" /etc/skel/guest-pref/ /home/guest-pref/
 rm ~/.mozilla/firefox/*.default/cookies.*;
-rm ~/.mozilla/firefox/*.default/*.sqlite ~/.mozilla/firefox/*default/sessionstore.js; echo volunteer
+rm ~/.mozilla/firefox/*.default/*.sqlite ~/.mozilla/firefox/*default/sessionstore.js;
 rm -r ~/.cache/mozilla/firefox/*.default/*
 rm -r ~/.config/google-chrome
 
